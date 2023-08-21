@@ -1,0 +1,54 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(5, 68, 104);
+  padding: 10px;
+  height: 110px;
+}
+
+.home-icon {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.navbar-items {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.navbar-items li {
+  margin-right: 20px;
+}
+
+.navbar-items li:last-child {
+  margin-right: 5px;
+}
+
+.signin-button {
+  background-color: #1182fc;
+  border: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+}
+
+.signin-button:hover {
+  background-color: #0056b3;
+}
+.signin-button a {
+  color: #fff !important;
+}
+
+.navbar-items li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-items li a:hover {
+  color: #555;
+}

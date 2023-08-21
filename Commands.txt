@@ -1,0 +1,8 @@
+1. On cloning the repo install the node modules command: npm install
+
+2. To start the app command: npm start
+
+3. Always pull the code before making chnages.
+
+4. Install these packages
+npm install @fortawesome/react-fontawesome @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons
